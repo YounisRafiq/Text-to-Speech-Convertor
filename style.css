@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background: linear-gradient(
+    90deg,
+    rgba(42, 123, 155, 1) 0%,
+    rgba(87, 199, 133, 1) 50%,
+    rgba(237, 221, 83, 1) 100%
+  );
+  text-align: center;
+}
+.hero {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(
+    90deg,
+    rgba(42, 123, 155, 1) 0%,
+    rgba(87, 199, 133, 1) 50%,
+    rgba(237, 221, 83, 1) 100%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+}
+.hero h1 {
+  font-size: 45px;
+  font-weight: 500;
+  margin-top: -50px;
+  margin-bottom: 50px;
+}
+.hero h1 span {
+  color: #ff2963;
+}
+textarea {
+  width: 600px;
+  height: 250px;
+  background: #d2d2d2ab;
+  padding: 20px;
+  border: none;
+  outline: none;
+  resize: none;
+  border-radius: 10px;
+  font-size: 15px;
+}
+textarea::placeholder {
+  font-size: 16px;
+  color: #333;
+}
+.row {
+  width: 600px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+button {
+  background-color: #ff2963;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 35px;
+  cursor: pointer;
+  font-size: 18px;
+  color: #fff;
+  margin: 20px 0;
+}
+.fa-play {
+  font-size: 15px;
+  margin-right: 10px;
+}
+select {
+  flex: 1;
+  color: #3e3e3e;
+  background-color: #d2d2d2ab;
+  padding: 10px 0;
+  border: none;
+  outline: none;
+  border-radius: 35px;
+  appearance: none;
+  cursor: pointer;
+  padding-left: 10px;
+}
+.fa-caret-down {
+  position: relative;
+  right: 50px;
+  font-size: 20px;
+}
